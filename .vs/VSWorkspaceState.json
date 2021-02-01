@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\examithscleancode2021"
+    "\\examithscleancode2021",
+    "\\examithscleancode2021\\.idea",
+    "\\examithscleancode2021\\MovieLibrary",
+    "\\examithscleancode2021\\MovieLibraryTesting"
   ],
   "SelectedNode": "\\examithscleancode2021\\Movie.sln",
   "PreviewInSolutionExplorer": false

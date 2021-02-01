@@ -35,6 +35,7 @@ ska finnas med i README.md i repots main-branch (master).
 //
 
 Har bara valt att testa grundläggande sortering och sökfunktion.
-På din inrådan så har jag implementerat adaptor pattern som slår ihop alla filmer till en gemensam lista för sortering och sökning.
-Koden är nu strukturerad i betydligt fler separata filer och skulle antagligen bidra för enkel vidare integration.
+Då det är två olika delar som ska kopplas samman och slås ihop för att kunna ge den lista som behövs i specifikationen, och programmet behöver deserialisera json till användbara listor så skulle jag vilja hävda att den använder sig av adapter pattern för det. Kanske är det inte i sin renaste form (då det egentligen oftast haterar interfaces som ska kunna prata med varandra), men
+programmet ändrar om data för att passa in där den behövs i slutändan på ett sätt som efterliknar mänstret för adapter.  https://code-maze.com/adapter/
+Koden är nu strukturerad i betydligt fler separata filer och skulle antagligen bidra för enkel vidare integration, då det tex underlättar för modularitet om tex Docker skulle implementeras. Kod hålls separerad till funktioner kring ett specifikt område och finktioner ska egentligen bara göra en sak, samt att de över lag är nerbantade i storlek. Clean Code s.34+
 
